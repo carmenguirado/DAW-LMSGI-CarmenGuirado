@@ -1,0 +1,50 @@
+{
+	"enquestes": [
+		{
+			"id": 1,
+			"titol": "Satisfacció amb el servei d'atenció al client",
+			"activa": true,
+			"preguntes": [
+				{
+					"ordre": 1,
+					"text": "Com valores l'atenció rebuda?",
+					"tipus": "opcio_multiple",
+					"opcions": [
+						"Molt bona",
+						"Bona",
+						"Regular",
+						"Dolenta"
+					]
+				},
+				{
+					"ordre": 2,
+					"text": "Què milloraries del servei?",
+					"tipus": "text_lliure"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"titol": "Preferències dels clients",
+			"activa": false,
+			"preguntes": [
+				{
+					"ordre": 1,
+					"text": "Quin canal prefereixes per contactar amb el servei?",
+					"tipus": "opcio_multiple",
+					"opcions": [
+						"Telèfon",
+						"Correu electrònic",
+						"Xat en línia",
+						"Atenció presencial"
+					]
+				},
+				{
+					"ordre": 2,
+					"text": "Quins altres serveis t'agradaria que oferíssim?",
+					"tipus": "text_lliure"
+				}
+			]
+		}
+	]
+}
